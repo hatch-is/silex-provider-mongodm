@@ -1,0 +1,35 @@
+{
+    "name": "hatch-is/silex-provider-mongodm",
+    "keywords": ["mongo","mongodb","mongodm","silex"],
+    "license": "MIT",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git@github.com:hatch-is/mongodm.git"
+        }
+    ],
+    "authors": [
+        {
+            "name": "Ivan Kuznetsov",
+            "email": "kuzma.wm@gmail.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Vladimir Dmitrovskiy",
+            "email": "vladimir@tep.io",
+            "role": "Developer"
+        }
+    ],
+    "require":{
+        "purekid/mongodm": "dev-master",
+        "silex/silex": ">=1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~3.5"
+    },
+    "autoload":{
+        "psr-0":{
+            "HatchIs\\Provider\\":"src"
+        }
+    }
+}
